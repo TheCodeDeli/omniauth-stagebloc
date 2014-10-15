@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Stagebloc::VERSION
   spec.authors       = ["Baylor Rae'"]
   spec.email         = ["opensource@thecodedeli.com"]
-  spec.summary       = %q{OmniAuth stragegy for Stagebloc.}
-  spec.description   = %q{OmniAuth stragegy for Stagebloc.}
+  spec.summary       = %q{OmniAuth strategy for Stagebloc.}
+  spec.description   = %q{OmniAuth strategy for Stagebloc.}
   spec.homepage      = "http://github.com/TheCodeDeli/omniauth-stagebloc"
   spec.license       = "MIT"
 
