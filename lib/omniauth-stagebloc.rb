@@ -1,4 +1,4 @@
-require "omniauth/stagebloc/version"
+require "omniauth-stagebloc/version"
 
 module Omniauth
   module Stagebloc
