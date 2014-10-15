@@ -19,7 +19,17 @@ module OmniAuth
 
       info do
         {
-          'email' => raw_info['email']
+          'id'       => raw_info['id'],
+          'url'      => raw_info['url'],
+          'created'  => Time.parse(raw_info['created'] + ' UTC'),
+          'name'     => raw_info['name'],
+          'username' => raw_info['username'],
+          'bio'      => raw_info['bio'],
+          'color'    => raw_info['color'],
+          'birthday' => Time.parse(raw_info['birthday']),
+          'gender'   => raw_info['gender'],
+          'email'    => raw_info['email'],
+          'photo'    => raw_info['photo']
         }
       end
 
