@@ -1,6 +1,6 @@
 # Omniauth::Stagebloc
 
-TODO: Write a gem description
+OmniAuth strategy for Stagebloc.
 
 ## Installation
 
@@ -14,17 +14,36 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install omniauth-stagebloc
-
 ## Usage
 
-TODO: Write usage instructions here
+### Devise
+
+```ruby
+config.omniauth :stagebloc, Rails.application.secrets.stageblock_client_id, Rails.application.secrets.stageblock_secret,
+                :parse => :stagebloc_parser
+```
+
+### OmniAuth (Rails)
+
+```ruby
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :stagebloc, ENV['STAGEBLOC_CLIENT_ID'], ENV['STAGEBLOC_SECRET'],
+           :parse => :stagebloc_parser
+end
+```
+
+### OmniAuth (Rack)
+
+```ruby
+use OmniAuth::Builder do
+  provider :stagebloc, ENV['STAGEBLOC_CLIENT_ID'], ENV['STAGEBLOC_SECRET'],
+           :parse => :stagebloc_parser
+end
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/omniauth-stagebloc/fork )
+1. Fork it ( https://github.com/TheCodeDeli/omniauth-stagebloc/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
