@@ -1,6 +1,6 @@
-# Omniauth::Stagebloc
+# OmniAuth::StageBloc
 
-OmniAuth strategy for Stagebloc.
+OmniAuth strategy for StageBloc.
 
 ## Installation
 
