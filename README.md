@@ -2,6 +2,9 @@
 
 OmniAuth strategy for StageBloc.
 
+<!-- trying to be funny, sort of -->
+[![Code Climate](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc/badges/gpa.svg)](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc)
+
 ## Installation
 
 Add this line to your application's Gemfile:
