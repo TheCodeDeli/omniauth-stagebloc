@@ -2,8 +2,7 @@
 
 OmniAuth strategy for StageBloc.
 
-<!-- trying to be funny, sort of -->
-[![Code Climate](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc/badges/gpa.svg)](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc)
+[![Build Status](https://travis-ci.org/TheCodeDeli/omniauth-stagebloc.svg?branch=master)](https://travis-ci.org/TheCodeDeli/omniauth-stagebloc) [![Code Climate](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc/badges/gpa.svg)](https://codeclimate.com/github/TheCodeDeli/omniauth-stagebloc)
 
 ## Installation
 
